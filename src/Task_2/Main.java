@@ -11,6 +11,7 @@ public class Main {
         newMyList.arrayPrint(); //Выводим массив на экран
 
         System.out.println("Array length is: " + newMyList.arrayLength()); //выводим длину массива
+
         //System.out.println(newMyList.array.length); //почему так нельзя сделать?
 
         newMyList.getElementWithIndex(2); //Получаем элемент с индексом 2
