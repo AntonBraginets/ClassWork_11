@@ -13,11 +13,10 @@ public class Main {
         System.out.println("Array length is: " + newMyList.arrayLength()); //выводим длину массива
         //System.out.println(newMyList.array.length); //почему так нельзя сделать?
 
-        newMyList.getElementWithIndex(2);
+        newMyList.getElementWithIndex(2); //Получаем элемент с индексом 2
 
-        newMyList.clear();//Очищаем массив
+        newMyList.clear(); //Очищаем массив
 
-        newMyList.arrayPrint();//Проверяем насколько хорошо мы почистили массив
-
+        newMyList.arrayPrint(); //Проверяем насколько хорошо мы почистили массив
     }
 }
