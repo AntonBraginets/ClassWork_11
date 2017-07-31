@@ -2,7 +2,7 @@ package Task_2;
 
 import java.lang.reflect.Array;
 
-public class MyList<E> implements Interface {
+public class MyList<E> /*implements Interface*/ {
     E[] array; //объявляем массив (тип данных E - будет заполнен в классе Main)
 
     public MyList(E[] array) {
@@ -38,6 +38,13 @@ public class MyList<E> implements Interface {
     }
 
     public void clear() {
+        //for (int k = 0; k < array.length; k++) {
+        //    array[k] = null;
+        //}
+        //for (E arrElement : array) {
+        //    if (arrElement != null)
+        //        clear();
+        //}
         array = (E[]) new Object[0];
         System.out.println("Array has been cleared");
     }
